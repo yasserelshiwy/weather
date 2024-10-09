@@ -1,0 +1,56 @@
+@media (max-width: 480px) {
+}
+@media (max-width: 786px) {
+}
+@media (max-width: 992px) {
+  nav {
+    padding-bottom: 0px !important ;
+  }
+  nav .collapse .navbar-nav {
+    margin-top: 30px;
+  }
+  nav .collapse .navbar-nav .nav-item a {
+    font-size: 14px;
+    padding: 20px;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    text-align: center;
+  }
+  nav .collapse .navbar-nav {
+    background-color: #262936;
+    border-radius: 10px;
+  }
+  nav .collapse .navbar-nav .nav-item .home {
+    border-bottom: 0.1px dotted #3c3f4a;
+  }
+  nav .collapse .navbar-nav .nav-item .news {
+    border-bottom: 0.1px dotted #3c3f4a;
+  }
+  nav .collapse .navbar-nav .nav-item .photo {
+    border-bottom: 0.1px dotted #3c3f4a;
+  }
+  nav .collapse .navbar-nav .nav-item .cameras {
+    border-bottom: 0.1px dotted #3c3f4a;
+  }
+  nav .collapse .navbar-nav .nav-item a:hover {
+    border-color: #3c3f4a;
+    color: #fff;
+  }
+  nav .collapse .navbar-nav .nav-item a:active {
+    border-color: #fff;
+  }
+  .today-forecast .row .card-1 {
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+  .today-forecast .row .card-3 {
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+  }
+  .form-continer-2 .search {
+    width: 100% !important;
+  }
+}
+@media (max-width: 1280px) {
+}
